@@ -17,9 +17,9 @@
 
 @media only screen and (max-width: 1024px) {
     .lightApp{
-        padding: 60px;
+        padding: 0px;
     }
     .darkApp{
-        padding: 60px;
+        padding: 0px;
     }
 }
