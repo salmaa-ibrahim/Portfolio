@@ -146,7 +146,7 @@ li {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 968px) {
     .lightNavbar {
         padding: 60px;
     }
