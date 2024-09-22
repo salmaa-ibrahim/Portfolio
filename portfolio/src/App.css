@@ -1,0 +1,25 @@
+.lightApp{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.darkApp{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+    background-color: #141D2F;
+}
+
+@media only screen and (max-width: 1024px) {
+    .lightApp{
+        padding: 60px;
+    }
+    .darkApp{
+        padding: 60px;
+    }
+}

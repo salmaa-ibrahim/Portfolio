@@ -1,0 +1,278 @@
+.darkMoon {
+    display: none;
+}
+
+.lightSun {
+    display: none;
+}
+
+.darkWhite {
+    display: none;
+}
+
+.lightBlack {
+    display: none;
+}
+
+.lightNavbar {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    padding: 50px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.darkNavbar {
+    background-color: #141D2F;
+    width: 100%;
+    height: 50px;
+    padding: 50px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.lightLogo a {
+    font-size: 30px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.darkLogo a {
+    font-size: 30px;
+    font-weight: 600;
+    cursor: default;
+    color: white;
+}
+
+.lightIcons {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgreen;
+}
+
+.darkIcons {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    font-size: 18px;
+}
+
+.darkList a {
+    color: white;
+}
+
+.lightTheme {
+    border: solid 2px rgb(247, 124, 80);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.darkTheme {
+    border: solid 2px rgb(247, 124, 80);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.check {
+    position: absolute;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+}
+
+.check :hover {
+    opacity: 1;
+    background-color: black;
+}
+
+.lightMenu {
+    display: none;
+}
+
+.darkMenu {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .lightNavbar {
+        padding: 50px 6%;
+    }
+
+    .darkNavbar {
+        padding: 50px 6%;
+    }
+
+    .lightIcons {
+        width: 63%;
+    }
+
+    .darkIcons {
+        width: 63%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .lightNavbar {
+        padding: 60px;
+    }
+
+    .darkNavbar {
+        padding: 60px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .lightMenu {
+        display: block;
+        border: solid 2px rgb(252, 146, 108);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .darkMenu {
+        display: block;
+        border: solid 2px rgb(252, 146, 108);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .lightIcons {
+        background-color: rgb(130, 139, 0);
+        width: 14%;
+    }
+
+    .darkIcons {
+        background-color: rgb(130, 139, 0);
+        width: 14%;
+    }
+
+    .lightMenu img {
+        width: 20px;
+    }
+
+    .darkMenu img {
+        width: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .lightNavbar {
+        padding: 40px 25px;
+    }
+
+    .darkNavbar {
+        padding: 40px 25px;
+    }
+
+    .lightLogo a {
+        font-size: 22px;
+    }
+    .darkLogo a {
+        font-size: 22px;
+    }
+
+    .lightIcons {
+        width: 24%;
+    }
+    .darkIcons {
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .lightIcons {
+        width: 27%;
+    }
+    .darkIcons {
+        width: 27%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .lightIcons {
+        width: 22%;
+    }
+
+    .darkIcons {
+        width: 22%;
+    }
+
+    .lightTheme {
+        width: 25px;
+        height: 25px;
+    }
+
+    .darkTheme {
+        width: 25px;
+        height: 25px;
+    }
+
+    .lightMenu {
+        width: 25px;
+        height: 25px;
+    }
+
+    .darkMenu {
+        width: 25px;
+        height: 25px;
+    }
+
+    .lightTheme img,
+    .lightMenu img {
+        width: 15px;
+        height: 15x;
+    }
+
+    .darkTheme img,
+    .darkMenu img {
+        width: 15px;
+        height: 15x;
+    }
+}
